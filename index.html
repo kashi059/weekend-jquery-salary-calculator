@@ -9,39 +9,70 @@
 <body>
 
 
-
+<!-- top of the page -->
      <h1 id = "topOfPageTitle">Salary Calculator</h1>
 
+
+
+
+
+
+
+
+<!-- Title and input field section -->
     <h2 id = "addEmployeeTitle">Add Employee</h1>
+        <!-- thsese are input fields that will inform the table -->
+        <form>
+            <input  id="firstName"  placeholder="First name">
+            
+            <input  id="lastName"  placeholder="Last name">
+            
+            <input id="id" name="id" placeholder="ID">
+            
+            <input  id="title"  placeholder="title">
+            
+            <input  id="annualSalary"  placeholder="Annual Salary">
+        </form>
+            <button id="submitButton"> Submit </button>
+            <!-- we need this right aligned -->
+
+<!-- example section -->
+            <!-- <h3>Create an Affirmation:</h3>
+            <form>
+              <input id="affirmationInput"
+                placeholder="Affirmation"
+                type="text">
+              <input
+                id = 'authorInput'
+                placeholder="Author"
+                type="text">
+              <button 
+               id = "submit-button"
+               class="submit-button"
+               >Submit
+                </button> -->
+<!-- end example section -->
+
+
+
     <h2 id = 'EmployeeTableTitle'> </h2>
-    <table id = "mainTable">
+    <table id = "mainTable" border = "1" solid black>
         <tr class = 'tableHeader'>
-            <th>Header 1</th>
-            <th>Header 2</th>
-            <th>Header 3</th>
+            <!-- these show the format of the data -->
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Annual Salary</th>
+            <th>Remove Row</th>
         </tr>
-        <tr>
-            <td>Row 1, Cell 1</td>
-            <td>Row 1, Cell 2</td>
-            <td>Row 1, Cell 3</td>
-        </tr>
-        <tr>
-            <td>Row 2, Cell 1</td>
-            <td>Row 2, Cell 2</td>
-            <td>Row 2, Cell 3</td>
-        </tr>
-        <tr>
-            <td>Row 3, Cell 1</td>
-            <td>Row 3, Cell 2</td>
-            <td>Row 3, Cell 3</td>
-        </tr>
+       <tr id = insertionPoint>
+   
+       </tr>
 
 
-
-
-
-
-
-
+        <footer>
+            <h5>Thanks for being here. Genuinely.</h5>
+          </footer>
 </body>
 </html>

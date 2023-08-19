@@ -1,8 +1,18 @@
-#title{
-    background-color: #ffeeaa;
+body{
+    background-color: #ffffff;
+}
+#title {
+    background-color: #2387c1;
 
 }
 
-.tableHeader{
-    background-color: #ffeeaa;
+.tableHeader {
+    background-color: #2e3c93;
+    color: #f1faee
+    
+}
+
+.submitButton {
+    text-align: right;
+
 }
