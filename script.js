@@ -13,7 +13,9 @@ function readyNow() {
 
 //This is the on click section
 $ ('#submitButton').on('click', transferEntry)
-$('#removeEntryButton').on('click','.remove', removeEntry);
+$('#mainTable').on('click','#remove', removeEntry);
+
+
 }
 
 
@@ -35,15 +37,20 @@ let annualSalaryInput = $('#annualSalary').val();
 //same for id
 
 // setting up the things to go in
-    let addTableRow = `<tr id="insertionPoint">
-     <td>${firstNameInput}</td> 
-     <td>${lastNameInput}</td>
-     <td>${idInput}</td> 
-     <td>${titleInput}</td>
-     <td>${annualSalaryInput}</td> 
-     <td><button class ='remove'> <img id = "removeEntryButton" src = 'removeEntryButton.png' alt="Remove this section"> </button></td> 
-     </tr>` 
-        //insert the delete button
+let addTableRow = `
+    <tr id="insertionPoint">
+        <td class="firstNameStyle">${firstNameInput}</td>
+        <td class="lastNameInputStyle">${lastNameInput}</td>
+        <td class="idInputStyle">${idInput}</td>
+        <td class="titleInputStyle">${titleInput}</td>
+        <td class="annualSalaryInputStyle">${annualSalaryInput}</td>
+        <td>
+            <button id="remove">
+                <img src="removeEntryButton.png" alt="Remove this section">
+            </button>
+        </td>
+    </tr>`;
+//insert the delete button
 
 //actually inserting the row of data
      $('#mainTable').append(addTableRow);

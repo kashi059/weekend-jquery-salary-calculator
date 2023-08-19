@@ -1,18 +1,104 @@
 body{
     background-color: #ffffff;
 }
-#title {
-    background-color: #2387c1;
 
+.headerImg {
+
+    align-content: center;
+
+}
+
+input{
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+
+    border:#ffffff;
+    border-radius: 10px;
+    background: #F1FAEE;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    padding 22px;
+
+
+    color: #787878;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 31.692px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    /* put in spacing so they spa the width of the browser */
+    /* look into flex shrink */
+
+
+
+}
+
+
+#topOfPageTitle {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50.628px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .tableHeader {
-    background-color: #2e3c93;
-    color: #f1faee
+    background-color: #ffffff;
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23.89px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
     
 }
 
-.submitButton {
-    text-align: right;
+#submitButton {
+    color: #FFF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27.054px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
 
+    align-items: right;
+    border: none;
+    text-align: center;
+    width: 201px;
+    height: 60px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: #A8DADC;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
+#mainTable {
+    width: 100%; /* Make the table take up the entire available width */
+    border-collapse: collapse; /* Merge cell borders */
+  }
+  
+#mainTable td {
+    width: 33%; /* Divide the available width equally among three cells */
+    padding: 10px; /* Add some padding for spacing */
+    border: 1px solid black; /* Add borders for cell separation */
+  }
+
+
+  /* TABLE CONTENT STYLING */
+
+/* all of them */
+.firstNameStyle {
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23.89px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Specific ones */
