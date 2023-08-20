@@ -17,7 +17,6 @@ margin-left: 150px;
 
     max-width: 100%;
     height: auto;
-/* again figuring out how to align things DONE*/
 }
 
 h2 {
@@ -168,6 +167,36 @@ table {
     color: white;
 }
 /* remove button is being updated */
+.remove {
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30.4px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    /* align-items: right; */
+    /* figure out how to align right */
+    border: none;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+
+    border-radius: 13px;
+    background: #E63946;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    float: center;
+    clear: both; 
+
+}
+
+
+
+
+
+
+
 .imgOfRemove{
     width: 120%;
     height: 120%;
@@ -193,3 +222,17 @@ h5{
     line-height: normal;
     text-align: center;
 }
+
+#footerImg{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex: 1;
+
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        height: auto;
+
+        align-self: flex-end; 
+    }

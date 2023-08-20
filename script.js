@@ -49,7 +49,7 @@ let addTableRow = `
         <td class="annualSalaryInputStyle">$${annualSalaryInput}</td>
         <td>
             <button class = "remove">
-                <img class = imgOfRemove src="removeEntryButton.png" alt="Remove this section">
+            X
             </button>
         </td>
     </tr>`;
