@@ -199,7 +199,7 @@ if (sumOfAnnualSalaryInput > 20000) {
 //this is where the remove button function lives
 function removeEntry(){
     $(this).parents("tr").remove();
-    console.log('SMOKE');
+    // console.log('SMOKE');
     // $(this).parentsUntil("tbody").remove();
 }
 
@@ -212,7 +212,7 @@ function removeEntry(){
 //  ✅ add $ sign
 
 //  ✅ added removal of commas where necessary so numbers could be processed
-//  ❌(YET TO DO) add "," where necessary (WORKING ON THIS)
+//  ✅(YET TO DO) add "," where necessary (WORKING ON THIS)
 
 //lesser TO DO (nice to have)
 //    make background on text the only part colored in each table element
